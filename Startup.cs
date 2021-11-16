@@ -32,7 +32,8 @@ namespace nt_vs2019_webDemo1
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello World!\n");
+                    await context.Response.WriteAsync("hai navya");
                 });
             });
         }
